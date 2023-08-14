@@ -1,0 +1,28 @@
+main ul{
+
+    list-style: none;
+    width: 1000px;
+    margin:0 auto ;
+}
+h1{
+    text-align: center; 
+    font-size: 50px; 
+    font-weight: 200;
+}
+main li{
+    text-align: center;
+    box-shadow: 1px 1px 4px black;
+    border-radius: 5px;
+    overflow: hidden;
+    margin:20px;
+    padding: 10px;
+}
+body {
+    width: 100%;
+    background: #fff5ee;
+    
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), #202020), url(images/gray.jpg);
+    background-size: cover;*/
+    position: relative;
+    font-family: roboto, sans-serif;
+  }

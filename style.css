@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    animation: animate 16s ease-in-out infinite;
+    background-size:cover;
+}
+body .menu{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh; 
+    padding-top: 10px;
+    padding-left: 200px;
+    padding-bottom: 100px;
+    padding-right: 250px;
+}
+nav{
+    width:100%;
+    height:55px;
+    line-height: 55px;
+    background-color:#060f2e ;
+}
+ nav .logo b{
+    font-size:20px; 
+    float:left;
+    letter-spacing:0.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-left: 30px;
+    color:#fff;
+}
+nav ul{
+    float:right;
+    padding-right: 40px;
+}
+nav li{
+    display:inline-block;
+    list-style: none;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+nav li a{
+    font-size:18px;
+    color:#fff;
+    text-decoration: none;
+    padding:0px 30px;
+}
+nav li a:hover{
+    color:#05963d;
+}
+.container{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 900px;
+    height: 600px;
+}
+ul{
+       list-style: none;
+       display:  flex;
+       gap:3px;
+}
+ul.hexagon{
+    transform: translateY(60px);
+}
+ul.hexagon2{
+    transform: translateY(10px);
+}
+ ul li .card{
+    color:#fff;
+    font-weight: 800;
+    position: relative;
+    width:250px;
+    height:250px;
+    background:linear-gradient(to right, #3dcece 30%, #106092);
+    clip-path:polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+}
+ul li .card a{
+    font-size:18px;
+    color:#fff;
+    text-decoration: none;
+    padding:0px 30px;
+}
+ul li .card a:hover{
+    color:#15b83d;
+}
+@keyframes animate{
+    0%,100%{
+        background-image: url(main_img.png);
+    }
+    20%{
+        background-image: url(cherry.jpg);
+    }
+}

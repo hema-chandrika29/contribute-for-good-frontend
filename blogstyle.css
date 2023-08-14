@@ -1,0 +1,25 @@
+main ul{
+
+    list-style: none;
+    width:1000px;
+    margin:0 auto ;
+}
+main li{
+    display: flex;
+    box-shadow: 1px 1px 4px black;
+    border-radius: 20px;
+    overflow: hidden;
+    margin:30px;
+}
+main li img{
+    
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+.item-content{
+    padding: 24px;
+    
+}
